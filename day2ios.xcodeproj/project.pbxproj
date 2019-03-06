@@ -14,6 +14,8 @@
 		9B07076C222F3C7500B32262 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B07076A222F3C7500B32262 /* LaunchScreen.storyboard */; };
 		9B070777222F3C7500B32262 /* day2iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B070776222F3C7500B32262 /* day2iosTests.swift */; };
 		9B070782222F3C7500B32262 /* day2iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B070781222F3C7500B32262 /* day2iosUITests.swift */; };
+		9B070790222F4FFD00B32262 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B07078F222F4FFD00B32262 /* ImageViewController.swift */; };
+		9B070794222F531E00B32262 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9B070793222F531E00B32262 /* download.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9B07077D222F3C7500B32262 /* day2iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = day2iosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B070781222F3C7500B32262 /* day2iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = day2iosUITests.swift; sourceTree = "<group>"; };
 		9B070783222F3C7500B32262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B07078F222F4FFD00B32262 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		9B070793222F531E00B32262 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,8 +105,10 @@
 				9B070763222F3C7400B32262 /* FirstViewController.swift */,
 				9B070765222F3C7400B32262 /* Main.storyboard */,
 				9B070768222F3C7500B32262 /* Assets.xcassets */,
+				9B070793222F531E00B32262 /* download.jpeg */,
 				9B07076A222F3C7500B32262 /* LaunchScreen.storyboard */,
 				9B07076D222F3C7500B32262 /* Info.plist */,
+				9B07078F222F4FFD00B32262 /* ImageViewController.swift */,
 			);
 			path = day2ios;
 			sourceTree = "<group>";
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B07076C222F3C7500B32262 /* LaunchScreen.storyboard in Resources */,
+				9B070794222F531E00B32262 /* download.jpeg in Resources */,
 				9B070769222F3C7500B32262 /* Assets.xcassets in Resources */,
 				9B070767222F3C7400B32262 /* Main.storyboard in Resources */,
 			);
@@ -257,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B070764222F3C7400B32262 /* FirstViewController.swift in Sources */,
+				9B070790222F4FFD00B32262 /* ImageViewController.swift in Sources */,
 				9B070762222F3C7400B32262 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
