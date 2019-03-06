@@ -16,6 +16,8 @@
 		9B070782222F3C7500B32262 /* day2iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B070781222F3C7500B32262 /* day2iosUITests.swift */; };
 		9B070790222F4FFD00B32262 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B07078F222F4FFD00B32262 /* ImageViewController.swift */; };
 		9B070794222F531E00B32262 /* download.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9B070793222F531E00B32262 /* download.jpeg */; };
+		9B070796222F606B00B32262 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B070795222F606B00B32262 /* ThirdViewController.swift */; };
+		9B070798222F60C800B32262 /* download (1).jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 9B070797222F60C800B32262 /* download (1).jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		9B070783222F3C7500B32262 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B07078F222F4FFD00B32262 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		9B070793222F531E00B32262 /* download.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = download.jpeg; sourceTree = "<group>"; };
+		9B070795222F606B00B32262 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		9B070797222F60C800B32262 /* download (1).jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "download (1).jpeg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,10 +109,12 @@
 				9B070763222F3C7400B32262 /* FirstViewController.swift */,
 				9B070765222F3C7400B32262 /* Main.storyboard */,
 				9B070768222F3C7500B32262 /* Assets.xcassets */,
+				9B070797222F60C800B32262 /* download (1).jpeg */,
 				9B070793222F531E00B32262 /* download.jpeg */,
 				9B07076A222F3C7500B32262 /* LaunchScreen.storyboard */,
 				9B07076D222F3C7500B32262 /* Info.plist */,
 				9B07078F222F4FFD00B32262 /* ImageViewController.swift */,
+				9B070795222F606B00B32262 /* ThirdViewController.swift */,
 			);
 			path = day2ios;
 			sourceTree = "<group>";
@@ -235,6 +241,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B070798222F60C800B32262 /* download (1).jpeg in Resources */,
 				9B07076C222F3C7500B32262 /* LaunchScreen.storyboard in Resources */,
 				9B070794222F531E00B32262 /* download.jpeg in Resources */,
 				9B070769222F3C7500B32262 /* Assets.xcassets in Resources */,
@@ -265,6 +272,7 @@
 			files = (
 				9B070764222F3C7400B32262 /* FirstViewController.swift in Sources */,
 				9B070790222F4FFD00B32262 /* ImageViewController.swift in Sources */,
+				9B070796222F606B00B32262 /* ThirdViewController.swift in Sources */,
 				9B070762222F3C7400B32262 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

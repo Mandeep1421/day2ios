@@ -98,6 +98,14 @@ class FirstViewController: UIViewController {
         
         self.present(alert, animated: true)
     }
+    
+    @IBAction func GoTonextScreen(_ sender: UIButton)
+    {
+        let sb = UIStoryboard(name: "Main", bundle: nil)
+        let PuppyVC = sb.instantiateViewController(withIdentifier: "Puppy") as! ThirdViewController
+        
+        self.present(PuppyVC, animated: true)
+    }
 }
 
 
